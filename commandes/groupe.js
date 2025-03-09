@@ -22,7 +22,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 
  
 
-  if (!verifGroupe) { repondre("✋🏿 ✋🏿this command is reserved for groups ❌"); return; }
+  if (!verifGroupe) { repondre("👾❤️ this command is reserved for groups ❌"); return; }
   if (!arg || arg === ' ') {
   mess = 'Aucun Message'
   } else {
@@ -31,7 +31,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        🌟 *𝐀𝐍𝐘𝐖𝐀𝐘-𝐌𝐃*𝕋𝔸𝔾* 🌟
+        ❤️👾 *Lumina TAGALL* 👾❤️
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -44,7 +44,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 
 
 
-  let emoji = ['🦴', '👀', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '😡', '🙏🏿', '⛔️', '$','😟','🥵','🐅']
+  let emoji = ['🦴', '👾', '❤️', '📍', '🤰', '🤍', '🌍', '🎯', '⚽', '🌝', '🧠', '🥺', '$','🥹','😭','🎮']
   let random = Math.floor(Math.random() * (emoji.length - 1))
 
 
@@ -72,13 +72,13 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  anyway team`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 Kylie 👸❤️🧸`
   repondre(mess)
 
 
 });
 /** *nommer un membre comme admin */
-zokou({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "promote", categorie: 'Group', reaction: "👾" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -251,7 +251,7 @@ zokou({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, asy
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'Anyway-Md', // The pack name
+                pack: 'Lumina 👾❤️', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
