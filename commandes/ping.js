@@ -3,14 +3,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou(
-  { nomCom: "ping2", reaction: "🧒", nomFichier: __filename },
+  { nomCom: "ping2", reaction: "⚡", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Ping command triggered!");
 
-    let captionText = '*🤖 Bot is online 🤖 🙏 \n\n𝐀𝐍𝐘𝐖𝐀𝐘-𝐌𝐃\n\n𝛥𝐷𝐷 𝛭𝛩𝑅𝛯 𝑆𝑇𝛥𝑇𝑈𝑆 😉';
+    let captionText = '*👾❤️⚡ Bot is online ⚡❤️👾 \n\nLumina-V1\n\n𝛥𝐷𝐷 𝛭𝛩𝑅𝛯 𝑆𝑇𝛥𝑇𝑈𝑆 😉';
 
-    let videoUrl = "https://files.catbox.moe/jq3oin.mp4";
-    let audioUrl = "https://files.catbox.moe/e52xx6.mp3";
+    let videoUrl = "";
+    let audioUrl = "";
 
     // Send the video with the caption first
     await zk.sendMessage(dest, {
