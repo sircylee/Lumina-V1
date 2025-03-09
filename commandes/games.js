@@ -5,7 +5,7 @@ const traduire = require('../framework/traduction')
 
 
 zokou({
-    nomCom: "chifumi",
+    nomCom: "rockpaperscissors",
     categorie: "Games",
     reaction: "📺"
   },
