@@ -47,13 +47,13 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   Beltah-md-stickers-dl
+      let msg = `   lumina-md-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
   *Length :* ${(stickers.data.result.stickers).length}
   
-      Downloading...`
+      Downloading...👾❤️`
   
       await  repondre(msg) ;
   
@@ -70,7 +70,7 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "Anyway-md",
+            author: "Lumina 👾❤️",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
