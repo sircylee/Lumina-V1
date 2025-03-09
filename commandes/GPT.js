@@ -4,11 +4,11 @@ const s = require('../set');
 const axios = require('axios');
 
 /* 
-Created By anyway tech
-Don't claim, okey 
+Created By kylieXcylee tech
+Check out Queen_Kylie-V1 👸❤️🧸
 */
 
-zokou({nomCom:"gpt4",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"gpt4",reaction:"📡",categorie:"AI"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
