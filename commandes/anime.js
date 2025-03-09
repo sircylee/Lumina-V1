@@ -131,8 +131,8 @@ zokou({
     const imdbData = response.data;
 
     let imdbInfo = "Tap on the link to join movie channel on telegram and download movies there : https://t.me/ibrahimtechai\n";
-    imdbInfo += " ``` BMW MD FILMS```\n";
-    imdbInfo += "*Made by Ibrahim Adams*\n";
+    imdbInfo += " ```Lumina-V1 Films```\n";
+    imdbInfo += "*Made by Cadillac Cylee 👾❤️*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";
     imdbInfo += "⭐Assessment : " + imdbData.Rated + "\n";
