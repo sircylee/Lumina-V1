@@ -24,7 +24,7 @@ zokou({
 
 zokou({
   'nomCom': "poll",
-  'reaction': '✨',
+  'reaction': '👾',
   'categorie': "General"
 }, async (message, sender, args) => {
   const { repondre: respond, arg: arguments, ms: metadata } = args;
@@ -47,7 +47,7 @@ zokou({
 
 zokou({
   'nomCom': "fact",
-  'reaction': '✌️',
+  'reaction': '👾',
   'categorie': "User"
 }, async (message, sender, args) => {
   const { repondre: respond, arg: arguments, ms: metadata } = args;
@@ -58,7 +58,7 @@ zokou({
 
 zokou({
   'nomCom': "quotes",
-  'reaction': '🗿',
+  'reaction': '👾',
   'categorie': "User"
 }, async (message, sender, args) => {
   const { repondre: respond, arg: arguments, ms: metadata } = args;
@@ -70,7 +70,7 @@ zokou({
 
 zokou({
   'nomCom': "define",
-  'reaction': '😁',
+  'reaction': '👾',
   'categorie': "Search"
 }, async (message, sender, args) => {
   const { repondre: respond, arg: arguments, ms: metadata } = args;
@@ -104,7 +104,7 @@ zokou({
     const lyrics = await firstSong.lyrics();
     const artist = await firstSong.artist.name;
     const title = await firstSong.title;
-    const lyricsMessage = "*𝐀𝐍𝐘𝐖𝐀𝐘 𝐗𝐌𝐃 LYRICS FINDER*\n\n*TITLE* - " + title + "\n\n*ARTIST* - " + artist + "\n\n" + lyrics;
+    const lyricsMessage = "*Lumina-V1 LYRICS FINDER*\n\n*TITLE* - " + title + "\n\n*ARTIST* - " + artist + "\n\n" + lyrics;
     await sender.sendMessage(message, {
       'image': {
         'url': "./media/lyrics.jpg"
